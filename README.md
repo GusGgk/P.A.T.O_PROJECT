@@ -5,19 +5,24 @@ Um Projeto desenvolvido por alunos do colégio [Sesi Centro Dr Celso Charuri](ht
 ![Gif de separação](https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif)
 
   ## Licença 🧾
-Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui](https://github.com/GusGgk/Site_SESI.github.io/blob/main/LICENSE) <br>
+Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui](https://github.com/GusGgk/P.A.T.O_PROJECT/blob/main/LICENSE) <br>
 
-### [Acesse Nosso Site aqui!!!](https://gusggk.github.io/Site_SESI.github.io/)
+### [Acesse Nosso Site aqui!!!](https://gusggk.github.io/P.A.T.O_PROJECT/)
 
 ### Em quais Feiras nosso projeto está:
 * **Olimpíada de Engenharia Biomédica**
 * **Mostra Científica**
 * **FICiência**
-
+### CADA FEIRA TEVE INTEGRANTES DIFERENTES REPRESENTANTANDO O PROJETO.
 ## Imagens do Site 💻
-
+**[Acesse todas as Imagens do Site]()**
 
 ## Imagens do Projeto 🦾
+* **[Acesse todas as Imagens do Projeto]()**
+* **[Acesse todas as Imagens do Projeto na Olimpíada de Engenharia Biomédica]()**
+* **[Acesse todas as Imagens do Projeto na Mostra Científica]()**
+* **[Acesse todas as Imagens do Projeto na FICiência]()**
+
 
 ##  Tecnologias Usadas no Site do projeto ⚙️
 <p align="center">
@@ -38,6 +43,6 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 ## Contatos dos Participantes do Projeto 📞
 |Plataformas | Acessos no Site |
 |-------|--------------|
-|![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/Site_SESI.github.io/linkedin.html)|
-|![Instagram](https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/Site_SESI.github.io/instagram.html)|
-|![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/Site_SESI.github.io/github.html)|
+|![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/linkedin.html)|
+|![Instagram](https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/instagram.html)|
+|![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/github.html)|
