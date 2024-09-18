@@ -7,7 +7,7 @@ Um Projeto desenvolvido por alunos do colégio [Sesi Centro Dr Celso Charuri](ht
   ## Licença 🧾
 Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui](https://github.com/GusGgk/P.A.T.O_PROJECT.github.io/blob/main/LICENSE) <br>
 
-### [Acesse Nosso Site aqui!!!](gusggk.github.io/P.A.T.O_PROJECT/)
+### [Acesse Nosso Site aqui!!!](https://gusggk.github.io/P.A.T.O_PROJECT/)
 
 ### Em quais Feiras nosso projeto está:
 * **Olimpíada de Engenharia Biomédica**
@@ -39,6 +39,6 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 ## Contatos dos Participantes do Projeto 📞
 |Plataformas | Acessos no Site |
 |-------|--------------|
-|![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT.io/linkedin.html)|
-|![Instagram](https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT.github.io/instagram.html)|
-|![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT.github.io/github.html)|
+|![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/linkedin.html)|
+|![Instagram](https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/instagram.html)|
+|![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/github.html)|
