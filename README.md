@@ -1,6 +1,7 @@
 #  🤖  Projeto P.A.T.O SESI CENTRO DR CELSO CHARURI 🦾
 <img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="300px"/> <br>
 
+![Gif de separação](https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif)
 Um Projeto desenvolvido por alunos do colégio [Sesi Centro Dr Celso Charuri](https://www.sesipr.org.br/unidades/), o projeto foi empenhado para ser utilizado em Olimpíadas Estudantis de Biomecânica e Biomedica. O projeto P.A.T.O(Protótipo Auxiliar de Tarefas Otimizado) é um braço robótico desenvolvido para auxiliar pessoas com deficiência motora nos membros superiores a realizar atividades diárias de forma mais autônoma. O objetivo principal é proporcionar uma solução acessível e personalizada, integrando tecnologias como visão computacional e controle intuitivo, como teclado mecânico ou potenciômetro, para executar movimentos simples, como pegar objetos leves.<br>
 ![Gif de separação](https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif)
 
