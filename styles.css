@@ -1,0 +1,143 @@
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-pato{
+    width: 500px;
+    height: auto;
+    align-items: center;
+    
+  }
+  main {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  h1 {
+    color: #0accee;
+    font-size: 36px; /* Define um tamanho de fonte maior para o título principal */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+  }
+  
+  h2, h3 {
+    color: #ffee00;
+    font-family: 'Trebuchet Ms', sans-serif;
+    font-size: 24px; /* Define um tamanho de fonte menor para os subtítulos */
+    margin-bottom: 10px;
+  }
+  
+  #paragrafoH3 {
+    color: #0a0a0a;
+    font-family: 'Trebuchet Ms', sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 10px; /* Adiciona espaço interno para o parágrafo */
+    border-radius: 7px; /* Arredonda as bordas do parágrafo */
+  }
+  .botao-diario {
+    background-color: #4CAF50; /* Verde padrão do Material Design */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+  }
+  
+  .botao-diario:hover {
+    background-color: #a8a62a; /* Verde mais escuro ao passar o mouse */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  footer {
+    background-color: #fffafa;
+    display: flex;
+    justify-content: center; /* Centraliza os elementos */
+    align-items: center; /* Alinha os elementos verticalmente */
+    padding: 20px; /* Ajuste o padding conforme necessário */
+    width: 100%;
+    height: auto; /* Permite que o footer se ajuste automaticamente à altura do conteúdo */
+}
+
+  .logo-sesi {
+    width: 250px; /* Ajuste o valor para o tamanho desejado */
+    height: auto; /* Mantém a proporção da imagem */ 
+
+    }
+    
+    .container {
+        text-align: center;
+      }
+      
+      .footer-content {
+        text-align: center;
+        padding: 15px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      li {
+        margin-bottom: 10px;
+      }
+      
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+
+.logo-instagram{
+    width: 250px; /* Ajuste o valor para o tamanho desejado */
+    height: auto;   
+}
+.logo-linkedin{
+    width: 250px; /* Ajuste o valor para o tamanho desejado */
+    height: auto;   
+}
+.logo-github{
+    width: 250px; /* Ajuste o valor para o tamanho desejado */
+    height: auto;
+    
+}
+.fab {
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    color: #333;
+    margin: 0 10px; /* Adiciona um espaço entre os ícones */
+  }
+
+  .fab {
+    font-size: 30px;
+    color: #000000;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .fab:hover {
+    color: red;
+  }
+
+  .p_github {
+    color: #ffffff;
+  }
+  .p_linkedin {
+    color: #ffffff;
+  }
+  .p_instagram {
+    color: #ffffff;
+  }
