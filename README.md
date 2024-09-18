@@ -13,12 +13,16 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 * **Olimpíada de Engenharia Biomédica**
 * **Mostra Científica**
 * **FICiência**
-
+### CADA FEIRA TEVE INTEGRANTES DIFERENTES REPRESENTANTANDO O PROJETO.
 ## Imagens do Site 💻
 **[Acesse todas as Imagens do Site]()**
 
 ## Imagens do Projeto 🦾
-**[Acesse todas as Imagens do Projeto]()**
+* **[Acesse todas as Imagens do Projeto]()**
+* **[Acesse todas as Imagens do Projeto na Olimpíada de Engenharia Biomédica]()**
+* **[Acesse todas as Imagens do Projeto na Mostra Científica]()**
+* **[Acesse todas as Imagens do Projeto na FICiência]()**
+
 
 ##  Tecnologias Usadas no Site do projeto ⚙️
 <p align="center">
