@@ -141,3 +141,11 @@ body {
   .p_instagram {
     color: #ffffff;
   }
+
+  .p_diario{
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(20, 20, 20);
+    width: 600px;
+    height: auto;
+  }

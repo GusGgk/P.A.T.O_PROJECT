@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+.galeria {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
