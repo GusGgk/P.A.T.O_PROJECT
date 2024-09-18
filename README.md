@@ -18,8 +18,8 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 **[Acesse todas as Imagens do Site]()**
 
 ## Imagens do Projeto 🦾
-* **[Acesse todas as Imagens do Projeto]()**
-* **[Acesse todas as Imagens do Projeto na Olimpíada de Engenharia Biomédica]()**
+* **[Acesse todas as Imagens do Projeto](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/fotos-de-todas-as-feiras)**
+* **[Acesse todas as Imagens do Projeto na Olimpíada de Engenharia Biomédica](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/Fotos-da-Olimpiada-de-Engenharia-Biomedica)**
 * **[Acesse todas as Imagens do Projeto na Mostra Científica]()**
 * **[Acesse todas as Imagens do Projeto na FICiência]()**
 
