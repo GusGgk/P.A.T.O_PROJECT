@@ -5,7 +5,7 @@ Um Projeto desenvolvido por alunos do colégio [Sesi Centro Dr Celso Charuri](ht
 ![Gif de separação](https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif)
 
   ## Licença 🧾
-Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui](https://github.com/GusGgk/P.A.T.O_PROJECT.github.io/blob/main/LICENSE) <br>
+Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui](https://github.com/GusGgk/P.A.T.O_PROJECT/blob/main/LICENSE) <br>
 
 ### [Acesse Nosso Site aqui!!!](https://gusggk.github.io/P.A.T.O_PROJECT/)
 
