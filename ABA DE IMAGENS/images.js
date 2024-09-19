@@ -1,12 +1,29 @@
-const imagens = document.querySelectorAll('.galeria img');
-const totalImagens = imagens.length;
+// script.js
+const imagens = document.querySelectorAll('.imagem');
 let indiceImagem = 0;
 
-function trocarImagem() {
-    imagens[indiceImagem].style.display = 'none';
-    indiceImagem = Math.floor(Math.random() * totalImagens);
-    imagens[indiceImagem].style.display = 'block';
+function mostrarImagem(indice) {
+  // Limpa a classe 'ativa' de todas as imagens
+  imagens.forEach(imagem => imagem.classList.remove('ativa'));
+  // Adiciona a classe 'ativa' à imagem atual
+  imagens[indice].classList.add('ativa');
 }
 
-// Iniciar a transição automática
-setInterval(trocarImagem, 4000);
+// Mostra a primeira imagem por padrão
+mostrarImagem(indiceImagem);
+
+function mostrarImagemAnterior() {
+  indiceImagem--;
+  if (indiceImagem < 0) {
+    indiceImagem = imagens.length - 1;
+  }
+  mostrarImagem(indiceImagem);
+}
+
+function mostrarImagemProxima() {
+  indiceImagem++;
+  if (indiceImagem >= imagens.length) {
+    indiceImagem = 0;
+  }
+  mostrarImagem(indiceImagem);
+}
