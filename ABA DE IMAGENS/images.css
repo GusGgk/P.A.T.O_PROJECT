@@ -54,12 +54,3 @@ h2 {
   .botao:hover {
     background-color: #3e8e41; /* Verde mais escuro ao passar o mouse */
   }
-/*.galeria img {
-    width: 90%;
-    height: auto;
-    display: none;
-    position: absolute;
-    top: 70%; /* Ajuste para 70% */
-    /*left: 50%;
-    transform: translate(-50%, -50%);
-}
