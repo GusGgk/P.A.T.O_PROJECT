@@ -15,12 +15,17 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 * **Mostra Científica**
 * **FICiência**
 ### CADA FEIRA TEVE INTEGRANTES DIFERENTES REPRESENTANTANDO O PROJETO.
+<br>
+ 
+## Acesse todas nossas Fotos AQUI ! 📸
+ * **[Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/ABA%20DE%20IMAGENS/aba-fotos.html)**
+
 ## Imagens do Site 💻
-**[Acesse todas as Imagens do Site]()**
+* **[Acesse todas as Imagens do Site](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/ABA%20DE%20IMAGENS/fotos-de-todas-as-feiras/FotosDoSite)**
 
 ## Imagens do Projeto 🦾
-* **[Acesse todas as Imagens do Projeto](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/fotos-de-todas-as-feiras)**
-* **[Acesse todas as Imagens do Projeto na Olimpíada de Engenharia Biomédica](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/Fotos-da-Olimpiada-de-Engenharia-Biomedica)**
+* **[Acesse todas as Imagens do Projeto](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/ABA%20DE%20IMAGENS/fotos-de-todas-as-feiras)**
+* **[Acesse todas as Imagens do Projeto na Olimpíada de Engenharia Biomédica](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/ABA%20DE%20IMAGENS/fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica)**
 * **[Acesse todas as Imagens do Projeto na Mostra Científica]()**
 * **[Acesse todas as Imagens do Projeto na FICiência]()**
 
