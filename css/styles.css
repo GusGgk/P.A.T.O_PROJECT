@@ -5,325 +5,224 @@ html {
 ::-webkit-scrollbar {
   display: none;
 }
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #000000;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } 
-  .logo-pato{
-    width: 500px;
-    height: auto;
-    align-items: center;
-    
-  }
-  main {
-    position: relative;
-    background-size: cover;
-    background-position: bottom;
-    text-align: center;
-    padding: 20px;
-    flex: 1;
-    z-index: 1; /* Mantém o conteúdo visível acima da imagem de fundo */
-  }
-  
-  main::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../ABA DE IMAGENS/fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/5.jpeg');
-    background-size: cover;
-    background-position: bottom;
-    filter: brightness(0.5); /* Aplica o filtro de escurecimento */
-    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
-    opacity: 1; /* Garante que o filtro seja visível */
-  }
-  
-  
-  h1 {
-    color: #0accee;
-    font-size: 36px; /* Define um tamanho de fonte maior para o título principal */
-    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
-  }
-  
-  h2, h3 {
-    color: #ffee00;
-    font-family: 'Trebuchet Ms', sans-serif;
-    font-size: 24px; /* Define um tamanho de fonte menor para os subtítulos */
-    margin-bottom: 10px;
-  }
-  
-  #paragrafoH3 {
-    color: #0a0a0a;
-    font-family: 'Trebuchet Ms', sans-serif;
-    background-color: rgb(255, 255, 255);
-    padding: 10px; /* Adiciona espaço interno para o parágrafo */
-    border-radius: 7px; /* Arredonda as bordas do parágrafo */
-  }
-  .botao-diario {
-    background-color: #4CAF50; /* Verde padrão do Material Design */
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
-    transition-duration: 0.4s;
-  }
-  .botao-aba-fotos{
-    background-color: #4CAF50; /* Verde padrão do Material Design */
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
-    transition-duration: 0.4s;
-  }
-  .botao-diario:hover {
-    background-color: #a8a62a; /* Verde mais escuro ao passar o mouse */
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  .botao-aba-fotos:hover {
-    background-color: #a8a62a; /* Verde mais escuro ao passar o mouse */
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  footer {
-    background-color: #fffafa;
-    display: flex;
-    justify-content: center; /* Centraliza os elementos */
-    align-items: center; /* Alinha os elementos verticalmente */
-    padding: 20px; /* Ajuste o padding conforme necessário */
-    width: 100%;
-    height: auto; /* Permite que o footer se ajuste automaticamente à altura do conteúdo */
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+} 
+
+.logo-pato {
+  width: 10rem;
+  height: auto;
+  align-items: center;
 }
 
-  .logo-sesi {
-    width: 250px; /* Ajuste o valor para o tamanho desejado */
-    height: auto; /* Mantém a proporção da imagem */ 
-
-    }
-    
-    .container {
-        text-align: center;
-      }
-      
-      .footer-content {
-        text-align: center;
-        padding: 15px;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      
-      li {
-        margin-bottom: 10px;
-      }
-      
-      a {
-        text-decoration: none;
-        color: #ffffff;
-      }
-
-
-.logo-instagram{
-    width: 250px; /* Ajuste o valor para o tamanho desejado */
-    height: auto;   
+main {
+  position: relative;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  z-index: 1;
 }
-.logo-linkedin{
-    width: 250px; /* Ajuste o valor para o tamanho desejado */
-    height: auto;   
+
+main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../ABA DE IMAGENS/fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/5.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  filter: brightness(0.5);
+  z-index: -1;
+  opacity: 1;
 }
-.logo-github{
-    width: 250px; /* Ajuste o valor para o tamanho desejado */
-    height: auto;
-    
+
+h1 {
+  display: flex;
+  flex-wrap: wrap;
+  color: #0accee;
+  font-size: 2rem; /* Tamanho de fonte responsivo */
+  margin-bottom: 20px;
 }
+
+h2, h3 {
+  color: #ffee00;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem; /* Tamanho de fonte responsivo */
+  margin-bottom: 10px;
+}
+
+#paragrafoH3 {
+  color: #0a0a0a;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.botao-diario, .botao-aba-fotos {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+.botao-diario:hover, .botao-aba-fotos:hover {
+  background-color: #a8a62a;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  background-color: #fffafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  gap: 1rem;
+}
+
+.logo-sesi, .logo-instagram, .logo-linkedin, .logo-github {
+  width: 250px;
+  height: auto;
+}
+
 .fab {
-    font-size: 24px; /* Ajuste o tamanho conforme necessário */
-    color: #333;
-    margin: 0 10px; /* Adiciona um espaço entre os ícones */
+  font-size: 30px;
+  color: #000000;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.fab:hover {
+  color: red;
+}
+
+.p_github, .p_linkedin, .p_instagram {
+  color: #ffffff;
+}
+
+.p_diario {
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(20, 20, 20);
+  width: 100%; /* Adapta ao tamanho da tela */
+  max-width: 800px;
+  height: auto;
+  padding: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.blob-btn {
+  position: relative;
+  padding: 20px 46px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+/* Responsividade começando com celulares pequenos */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem; /* Diminui o tamanho do título */
   }
 
-  .fab {
-    font-size: 30px;
-    color: #000000;
-    margin: 0 15px;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .fab:hover {
-    color: red;
+  h2, h3 {
+    font-size: 1.2rem; /* Ajusta o tamanho dos subtítulos */
   }
 
-  .p_github {
-    color: #ffffff;
-  }
-  .p_linkedin {
-    color: #ffffff;
-  }
-  .p_instagram {
-    color: #ffffff;
+  .p_diario {
+    width: 90%; /* Deixa o parágrafo ocupar quase toda a tela */
   }
 
-  .p_diario{
-    text-align: center;
-    background-color: #ffffff;
-    color: rgb(20, 20, 20);
-    width: 800px;
-    height: auto;
+  .logo-pato {
+    width: 8rem; /* Ajusta a logo para telas menores */
   }
-
-  *, *:before, *:after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
   
   .buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-    text-align: center;
-    border-radius: 30px;
+    flex-direction: column; /* Empilha os botões em celulares pequenos */
+  }
+
+  .botao-diario, .botao-aba-fotos {
+    width: 100%; /* Botões ocupam toda a largura da tela */
+    padding: 12px 24px; /* Ajusta o padding para botões menores */
+  }
+}
+
+/* Tablets e telas intermediárias */
+@media (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem; /* Tamanho de fonte intermediário */
+  }
+
+  h2, h3 {
+    font-size: 1.4rem;
+  }
+
+  .p_diario {
+    width: 85%; /* Parágrafo ocupa 85% da tela em tablets */
+  }
+
+  .logo-pato {
+    width: 9rem; /* Ajusta o tamanho da logo */
   }
   
-  .blob-btn {
-    z-index: 1;
-    position: relative;
-    padding: 20px 46px;
-    margin-bottom: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #0505A9;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    transition: color 0.5s;
-    cursor: pointer;
-    border-radius: 30px;
+  .buttons {
+    flex-direction: row; /* Mantém os botões lado a lado */
+  }
+}
+
+/* Telas maiores (notebooks) */
+@media (min-width: 769px) {
+  h1 {
+    font-size: 2rem; /* Tamanho de fonte maior para notebooks */
+  }
+
+  h2, h3 {
+    font-size: 1.6rem;
+  }
+
+  .p_diario {
+    width: 80%; /* Parágrafo ocupa 80% da tela */
+  }
+
+  .logo-pato {
+    width: 10rem; /* Mantém o tamanho da logo grande em notebooks */
   }
   
-  .blob-btn:before {
-    content: "";
-    z-index: 1;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid #0505A9;
-    border-radius: 30px;
+  .buttons {
+    flex-direction: row; /* Botões em linha nos notebooks */
   }
-  
-  .blob-btn:after {
-    content: "";
-    z-index: -2;
-    position: absolute;
-    left: 3px;
-    top: 3px;
-    width: 100%;
-    height: 100%;
-    transition: all 0.3s 0.2s;
-    border-radius: 30px;
-  }
-  
-  .blob-btn:hover {
-    color: #FFFFFF;
-    border-radius: 30px;
-  }
-  
-  .blob-btn:hover:after {
-    transition: all 0.3s;
-    left: 0;
-    top: 0;
-    border-radius: 30px;
-  }
-  
-  .blob-btn__inner {
-    z-index: -1;
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    background: #ffffff;
-  }
-  
-  .blob-btn__blobs {
-    position: relative;
-    display: block;
-    height: 100%;
-    filter: url('#goo');
-  }
-  
-  .blob-btn__blob {
-    position: absolute;
-    top: 2px;
-    width: calc(100% / 4);
-    height: 100%;
-    background: #0505A9;
-    border-radius: 100%;
-    transform: translate3d(0,150%,0) scale(1.7);
-    transition: transform 0.45s;
-  }
-  
-  @supports(filter: url('#goo')) {
-    .blob-btn__blob {
-      transform: translate3d(0,150%,0) scale(1.4);
-    }
-  }
-  
-  .blob-btn__blob:nth-child(1) {
-    left: 0;
-    transition-delay: 0s;
-  }
-  
-  .blob-btn__blob:nth-child(2) {
-    left: calc(1 * (120% / 4));
-    transition-delay: 0.08s;
-  }
-  
-  .blob-btn__blob:nth-child(3) {
-    left: calc(2 * (120% / 4));
-    transition-delay: 0.16s;
-  }
-  
-  .blob-btn__blob:nth-child(4) {
-    left: calc(3 * (120% / 4));
-    transition-delay: 0.24s;
-  }
-  
-  .blob-btn:hover .blob-btn__blob {
-    transform: translateZ(0) scale(1.7);
-  }
-  
-  @supports(filter: url('#goo')) {
-    .blob-btn:hover .blob-btn__blob {
-      transform: translateZ(0) scale(1.4);
-    }
-  }
-  .botoes{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
+}
