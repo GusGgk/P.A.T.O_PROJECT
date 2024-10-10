@@ -8,8 +8,6 @@ Um Projeto desenvolvido por alunos do colégio [Sesi Centro Dr Celso Charuri](ht
   ## Licença 🧾
 Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui](https://github.com/GusGgk/P.A.T.O_PROJECT/blob/main/LICENSE) <br>
 
-### [Acesse Nosso Site aqui!!!](https://gusggk.github.io/P.A.T.O_PROJECT/)
-
 ### Em quais Feiras nosso projeto está:
 * **Olimpíada de Engenharia Biomédica**
 * **Mostra Científica**
