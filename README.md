@@ -20,9 +20,6 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 ## Acesse todas nossas Fotos AQUI ! 📸
  * **[Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/ABA%20DE%20IMAGENS/aba-fotos.html)**
 
-## Imagens do Site 💻
-* **[Acesse todas as Imagens do Site](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/ABA%20DE%20IMAGENS/fotos-de-todas-as-feiras/FotosDoSite)**
-
 ## Imagens do Projeto 🦾
 * **[Acesse todas as Imagens do Projeto](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/ABA%20DE%20IMAGENS/fotos-de-todas-as-feiras)**
 * **[Acesse todas as Imagens do Projeto na Olimpíada de Engenharia Biomédica](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/ABA%20DE%20IMAGENS/fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica)**
@@ -52,3 +49,9 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 |![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/linkedin.html)|
 |![Instagram](https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/instagram.html)|
 |![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/github.html)|
+
+## Aba de Páginas 🦆
+Caso prefira, acesse o QR code abaixo para acessar nossa Página de Acesso a todas nossas Redes,Plataformas entre outros links.
+<p align="center">
+<img src="https://qci.qr-code.click/uploads/qr_codes/67115d4a7e0fb.svg?1729194829" width="300px"/> <br>
+
