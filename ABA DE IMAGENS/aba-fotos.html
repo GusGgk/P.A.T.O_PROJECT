@@ -1,50 +1,195 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <!-- Estilos CSS Interno -->
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(77, 76, 75);
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
 
-    <title>Nossa Galeria de Fotos</title>
-    <link rel="stylesheet" href="images.css">
+        /* Título principal */
+        .titulo {
+            font-size: 48px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-top: 50px;
+            margin-bottom: 20px;
+            color: antiquewhite;
+        }
+
+        /* Subtítulo */
+        h2 {
+            text-shadow: 2px 2px 4px rgb(0, 0, 0);
+            color: #ffd000;
+        }
+
+        /* Galeria de imagens */
+        .galeria {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            flex-wrap: wrap; /* Permitir que as imagens se ajustem em várias linhas */
+        }
+
+        .imagem {
+            max-width: 250px; /* Aumentado o tamanho das imagens menores */
+            max-height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .imagem-central {
+            max-width: 600px; /* Aumentado o tamanho da imagem central */
+            max-height: 500px;
+            object-fit: cover;
+            margin: 0 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Botões */
+        .botao {
+            background: linear-gradient(145deg, #1d6fa5, #2497e3);
+            color: white;
+            padding: 15px 32px;
+            font-size: 16px;
+            margin: 20px 10px;
+            cursor: pointer;
+            border-radius: 50px;
+            border: none;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .botao::before {
+            content: "";
+            position: absolute;
+            top: -100%;
+            left: -100%;
+            width: 300%;
+            height: 300%;
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(45deg);
+            transition: all 0.5s ease-in-out;
+        }
+
+        .botao:hover::before {
+            top: 100%;
+            left: 100%;
+        }
+
+        .botao:hover {
+            background: linear-gradient(145deg, #a09d0a, #022b46);
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), -10px -10px 20px rgba(255, 255, 255, 0.1);
+            transform: scale(1.1);
+        }
+
+        .botao:active {
+            transform: scale(0.98);
+            box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.2), inset -3px -3px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .imagem {
+                max-width: 150px;
+                max-height: 100px;
+            }
+            .imagem-central {
+                max-width: 250px;
+                max-height: 200px;
+            }
+            .titulo {
+                font-size: 36px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1 class="titulo">Essa é Nossa Galeria de Fotos!</h1>
-    <h2>Fotos das nossas Feiras, Projeto e Site.</h2>
-    <div class="galeria">
-        <img src="Screenshots/Pagina Principal.png" alt="Imagem 1" class="imagem">
-        <img src="Screenshots/Rodape da Pagina Principal.png" alt="Imagem 2" class="imagem"> 
-        <img src="Screenshots/Paginas do linkedins.png" alt="Imagem 4" class="imagem">
-        <img src="Screenshots/Pagina dos GitHubs.png" alt="Imagem 5" class="imagem">
-        <img src="Screenshots/Pagina dos Instagrams.png" alt="Imagem 6" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/2.jpeg" alt="Imagem 7" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/3.jpeg" alt="Imagem 8" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/4.jpeg" alt="Imagem 9" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/5.jpeg" alt="Imagem 10" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/categoria ganha.jpeg" alt="Imagem 11" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/equipe 2.jpeg" alt="Imagem 12" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/equipe.jpeg" alt="Imagem 13" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/equipe 3.jpeg" alt="Imagem 14" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/Medalha.jpeg" alt="Imagem 15" class="imagem">
-        <img src="images/logo_pato.png.png" alt="Imagem 16" class="imagem">
-        <img src="images/pato_logo.png" alt="Imagem 17" class="imagem">
-        <img src="images/sesi industria logo.png" alt="Imagem 18" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/Equipe engenhaBob completa.jpg" alt="Imagem 19" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/Foto da aba de acessos.jpg" alt="Imagem 20" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 1.jpg" alt="Imagem 21" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 10.jpg" alt="Imagem 22" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 2.jpg" alt="Imagem 23" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 3.jpg" alt="Imagem 24" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 4.jpg" alt="Imagem 25" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 5.jpg" alt="Imagem 26" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 6.jpg" alt="Imagem 27" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 7.jpg" alt="Imagem 28" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 8.jpg" alt="Imagem 29" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 9.jpg" alt="Imagem 30" class="imagem">
-        <img src="fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra pitch.jpg" alt="Imagem 31" class="imagem">
-        </div>
-        <button class="botao" onclick="mostrarImagemAnterior()">Anterior</button>
-        <button class="botao"onclick="mostrarImagemProxima()">Próxima</button>
-    <script src="images.js"></script>
+
+<h1 class="titulo">Galeria de Imagens</h1>
+<h2>Fotos das nossas Feiras, Projeto e Site.</h2>
+
+<div class="galeria">
+    <img src="Screenshots/Pagina Principal.png" alt="Imagem 1" class="imagem imagem-central" id="imagemCentral">
+    <!-- Adicione mais imagens conforme necessário -->
+</div>
+
+<div class="botoes">
+    <button id="anterior" class="botao">Anterior</button>
+    <button id="proximo" class="botao">Próximo</button>
+</div>
+
+<script>
+    const imagens = [
+        "Screenshots/Pagina Principal.png",
+        "Screenshots/Rodape da Pagina Principal.png",
+        "Screenshots/Paginas do linkedins.png",
+        "Screenshots/Pagina dos GitHubs.png",
+        "Screenshots/Pagina dos Instagrams.png",
+        "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/2.jpeg",
+        "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/3.jpeg",
+        "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/4.jpeg",
+        "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/5.jpeg",
+        "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/categoria ganha.jpeg",
+        "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/equipe 2.jpeg",
+        "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/equipe.jpeg",
+        "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/equipe 3.jpeg",
+        "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/Medalha.jpeg",
+        "images/logo_pato.png.png",
+        "images/pato_logo.png",
+        "images/sesi industria logo.png",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/Equipe engenhaBob completa.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/Foto da aba de acessos.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 1.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 10.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 2.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 3.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 4.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 5.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 6.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 7.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 8.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra 9.jpg",
+        "fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica/foto mostra pitch.jpg"
+    ];
+
+    let indiceAtual = 0;
+
+    function atualizarImagem() {
+        const imagemCentral = document.getElementById('imagemCentral');
+        imagemCentral.src = imagens[indiceAtual];
+    }
+
+    document.getElementById('anterior').addEventListener('click', () => {
+        indiceAtual = (indiceAtual > 0) ? indiceAtual - 1 : imagens.length - 1;
+        atualizarImagem();
+    });
+
+    document.getElementById('proximo').addEventListener('click', () => {
+        indiceAtual = (indiceAtual < imagens.length - 1) ? indiceAtual + 1 : 0;
+        atualizarImagem();
+    });
+
+    // Inicializa a imagem
+    atualizarImagem();
+</script>
+
 </body>
 </html>
