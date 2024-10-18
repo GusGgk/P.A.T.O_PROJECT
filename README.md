@@ -47,7 +47,7 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 |Plataformas | Acessos no Site |
 |-------|--------------|
 |![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/linkedin.html)|
-|![Instagram](https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/instagram.html)|
+|![Instagram](https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/instagrams.html)|
 |![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/github.html)|
 
 ## Aba de Páginas 🦆
