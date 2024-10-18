@@ -23,7 +23,7 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 ## Imagens do Projeto 🦾
 * **[Acesse todas as Imagens do Projeto](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/ABA%20DE%20IMAGENS/fotos-de-todas-as-feiras)**
 * **[Acesse todas as Imagens do Projeto na Olimpíada de Engenharia Biomédica](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/ABA%20DE%20IMAGENS/fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica)**
-* **[Acesse todas as Imagens do Projeto na Mostra Científica]()**
+* **[Acesse todas as Imagens do Projeto na Mostra Científica](https://github.com/GusGgk/P.A.T.O_PROJECT/tree/main/ABA%20DE%20IMAGENS/fotos-de-todas-as-feiras/Fotos-da-Mostra-Cientifica)**
 * **[Acesse todas as Imagens do Projeto na FICiência]()**
 
 
