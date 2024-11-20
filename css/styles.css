@@ -64,12 +64,22 @@ h2, h3 {
 }
 
 #paragrafoH3 {
-  color: #0a0a0a;
-  font-family: 'Trebuchet MS', sans-serif;
-  background-color: #ffffff;
-  padding: 10px;
-  border-radius: 7px;
+  color: #0a0a0a; /* Cor do texto */
+  font-family: 'Trebuchet MS', sans-serif; /* Fonte do texto */
+  background-color: #ffffff; /* Cor do fundo */
+  padding: 15px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra do fundo */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra do texto */
+  transition: all 0.3s ease-in-out; /* Suaviza transições */
 }
+
+#paragrafoH3:hover {
+  background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.03); /* Efeito de aumento ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+
 
 .botao-diario, .botao-aba-fotos {
   background-color: #4CAF50;
@@ -134,7 +144,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 30px;
+  gap: 15px; /* Espaçamento entre os botões */
 }
 
 .blob-btn {
@@ -143,15 +153,28 @@ footer {
   margin-bottom: 30px;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #0f0f0f;
   font-size: 16px;
   font-weight: bold;
-  background-color: transparent;
-  outline: none;
+  background: linear-gradient(45deg, #ff7eb3, #ff758c, #f05464); /* Gradiente no fundo */
   border: none;
   cursor: pointer;
   border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(255, 87, 127, 0.3); /* Sombra ao redor do botão */
+  transition: all 0.3s ease-in-out; /* Suaviza transições */
 }
+
+.blob-btn:hover {
+  background: linear-gradient(45deg, #f05464, #ff758c, #ff7eb3); /* Inverte o gradiente no hover */
+  box-shadow: 0 8px 20px rgba(255, 87, 127, 0.5); /* Intensifica a sombra ao passar o mouse */
+  transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+}
+
+.blob-btn:active {
+  transform: scale(0.95); /* Reduz ligeiramente o tamanho no clique */
+  box-shadow: 0 4px 10px rgba(255, 87, 127, 0.3); /* Reduz a sombra no clique */
+}
+
 
 /* Responsividade começando com celulares pequenos */
 @media (max-width: 480px) {
