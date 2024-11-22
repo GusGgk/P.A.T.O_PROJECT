@@ -9,10 +9,11 @@ Um Projeto desenvolvido por alunos do colégio [Sesi Centro Dr Celso Charuri](ht
 Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui](https://github.com/GusGgk/P.A.T.O_PROJECT/blob/main/LICENSE) <br>
 
 ### Em quais Feiras nosso projeto está:
+
 * **Olimpíada de Engenharia Biomédica**
-* **Mostra Científica**
+* **1° Mostra Científica do Paraná**
 * **FICiência**
-* **FEBRACE**
+
   
 ### CADA FEIRA TEVE INTEGRANTES DIFERENTES REPRESENTANTANDO O PROJETO.
 <br>
@@ -49,6 +50,13 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 |![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/linkedin.html)|
 |![Instagram](https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/instagrams.html)|
 |![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)| [Acesse Aqui](https://gusggk.github.io/P.A.T.O_PROJECT/github.html)|
+
+# NOSSAS CONQUISTAS 🏆
+
+* **Olimpíada de Engenharia Biomédica =  🥇 CAMPEÕES da Categoria Motora no Paraná e  🥈 2° Lugar Nacional ocorrido em Minas Gerais**
+* **1° Mostra Científica do Paraná = 🥉 3° Lugar na Categoria de Engenharia e 🏅 8° Lugar Geral entre 60 Equipes !**
+* **FICiência = Loading...**
+
 
 ## Aba de Páginas 🦆
 Caso prefira, acesse o QR code abaixo para acessar nossa Página de Acesso a todas nossas Redes,Plataformas entre outros links.
