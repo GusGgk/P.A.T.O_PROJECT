@@ -51,17 +51,91 @@ main::before {
 h1 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* Centraliza o texto */
   color: #0accee;
-  font-size: 2rem; /* Tamanho de fonte responsivo */
+  font-size: 2.5rem; /* Aumenta ligeiramente o tamanho da fonte */
+  font-weight: bold; /* Deixa o texto mais forte */
   margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+  background: linear-gradient(90deg, #0accee, #ff7eb3, #f05464); /* Gradiente no texto */
+  background-clip: text; /* Clipa o gradiente ao texto */
+  color: transparent; /* Torna a cor base transparente para exibir o gradiente */
+  transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Suaviza as transições */
+  cursor: pointer; /* Muda o cursor ao passar */
+}
+
+h1:hover {
+  transform: scale(1.1); /* Aumenta ligeiramente o tamanho no hover */
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Intensifica a sombra */
+}
+
+h1:active {
+  transform: scale(0.95); /* Reduz ligeiramente o tamanho ao clicar */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Diminui a sombra */
+}
+
+/* Interação com o mouse */
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  background-size: 200% 200%; /* Define o tamanho do gradiente */
+  animation: moveGradient 4s infinite; /* Gradiente animado */
+}
+
+
+h2, h3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza o texto */
+  color: #0accee;
+  font-size: 2rem; /* Reduz ligeiramente o tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra leve */
+  background: linear-gradient(45deg, #aaa702, #ffee04); /* Gradiente mais suave */
+  background-clip: text; /* Clipa o gradiente ao texto */
+  color: transparent; /* Torna a cor base transparente */
+  transition: transform 0.5s ease-in-out, letter-spacing 0.3s ease-in-out; /* Suaviza as transições */
+  cursor: pointer; /* Muda o cursor ao passar */
+}
+
+h2, h3:hover {
+  transform: rotate(2deg) scale(1.05); /* Leve rotação e ampliação no hover */
+  letter-spacing: 2px; /* Aumenta o espaçamento entre letras */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Intensifica a sombra */
+}
+
+h2, h3:active {
+  transform: scale(0.9) rotate(-2deg); /* Reduz tamanho e gira ligeiramente ao clicar */
+  text-shadow: none; /* Remove a sombra ao clicar */
+}
+
+/* Animação de pulsar */
+@keyframes pulseEffect {
+  0%, 100% {
+    transform: scale(1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    transform: scale(1.02);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  }
 }
 
 h2, h3 {
-  color: #ffee00;
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 1.5rem; /* Tamanho de fonte responsivo */
-  margin-bottom: 10px;
+  animation: pulseEffect 3s infinite; /* Efeito de pulsar */
 }
+
 
 #paragrafoH3 {
   color: #0a0a0a; /* Cor do texto */
@@ -130,13 +204,40 @@ footer {
 
 .p_diario {
   text-align: center;
-  background-color: #ffffff;
+  background: linear-gradient(135deg, #ffffff, #f0f0f0); /* Gradiente sutil para o fundo */
   color: rgb(20, 20, 20);
   width: 100%; /* Adapta ao tamanho da tela */
   max-width: 800px;
-  height: auto;
-  padding: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.1); /* Adiciona uma borda leve */
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+  padding: 20px; /* Espaçamento interno maior */
+  margin: 20px auto; /* Centraliza e adiciona espaço externo */
+  font-family: 'Georgia', serif; /* Fonte com um toque mais clássico */
+  line-height: 1.6; /* Melhor espaçamento entre linhas */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza as transições */
 }
+
+.p_diario:hover {
+  transform: scale(1.02); /* Leve aumento no hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Intensifica a sombra no hover */
+}
+
+.p_diario:before {
+  content: '📖'; /* Ícone de livro ou diário */
+  font-size: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.p_diario:after {
+  content: '✍️'; /* Ícone de caneta ou escrita */
+  font-size: 18px;
+  display: block;
+  margin-top: 10px;
+  color: rgba(100, 100, 100, 0.7); /* Cor mais discreta */
+}
+
 
 .buttons {
   display: flex;

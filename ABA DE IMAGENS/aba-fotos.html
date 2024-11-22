@@ -15,20 +15,81 @@
         }
 
         /* Título principal */
-        .titulo {
-            font-size: 48px;
-            font-weight: 700;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            margin-top: 50px;
-            margin-bottom: 20px;
-            color: antiquewhite;
-        }
+.titulo {
+  font-size: 64px; /* Tamanho maior para impacto */
+  font-weight: 900; /* Deixa o texto bem destacado */
+  margin: 50px 0 20px; /* Margens ajustadas */
+  text-transform: uppercase; /* Caixa alta para destaque */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  color: transparent; /* Texto transparente para aplicar o gradiente */
+  background: linear-gradient(90deg, #ff7eb3, #ff758c, #ffa07a); /* Gradiente chamativo */
+  background-clip: text; /* O gradiente é aplicado ao texto */
+  -webkit-background-clip: text; /* Compatibilidade com navegadores */
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  animation: gradientMove 5s infinite alternate; /* Animação do gradiente */
+  transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Suaviza transições */
+  text-align: center; /* Centraliza o título */
+  cursor: pointer; /* Indica que é interativo */
+}
+
+.titulo:hover {
+  transform: scale(1.1); /* Leve aumento ao passar o mouse */
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Intensifica a sombra */
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 
         /* Subtítulo */
-        h2 {
-            text-shadow: 2px 2px 4px rgb(0, 0, 0);
-            color: #ffd000;
-        }
+        h2, h3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza o texto */
+  color: #0accee;
+  font-size: 2rem; /* Reduz ligeiramente o tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra leve */
+  background: linear-gradient(45deg, #aaa702, #ffee04); /* Gradiente mais suave */
+  background-clip: text; /* Clipa o gradiente ao texto */
+  color: transparent; /* Torna a cor base transparente */
+  transition: transform 0.5s ease-in-out, letter-spacing 0.3s ease-in-out; /* Suaviza as transições */
+  cursor: pointer; /* Muda o cursor ao passar */
+}
+
+h2, h3:hover {
+  transform: rotate(2deg) scale(1.05); /* Leve rotação e ampliação no hover */
+  letter-spacing: 2px; /* Aumenta o espaçamento entre letras */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Intensifica a sombra */
+}
+
+h2, h3:active {
+  transform: scale(0.9) rotate(-2deg); /* Reduz tamanho e gira ligeiramente ao clicar */
+  text-shadow: none; /* Remove a sombra ao clicar */
+}
+
+/* Animação de pulsar */
+@keyframes pulseEffect {
+  0%, 100% {
+    transform: scale(1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    transform: scale(1.02);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  }
+}
+
+h2, h3 {
+  animation: pulseEffect 3s infinite; /* Efeito de pulsar */
+}
 
         /* Galeria de imagens */
         .galeria {
@@ -138,11 +199,6 @@
 
 <script>
     const imagens = [
-        "Screenshots/Pagina Principal.png",
-        "Screenshots/Rodape da Pagina Principal.png",
-        "Screenshots/Paginas do linkedins.png",
-        "Screenshots/Pagina dos GitHubs.png",
-        "Screenshots/Pagina dos Instagrams.png",
         "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/2.jpeg",
         "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/3.jpeg",
         "fotos-de-todas-as-feiras/Fotos-da-Olimpiada-de-Engenharia-Biomedica/4.jpeg",
