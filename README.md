@@ -61,5 +61,5 @@ Acesse a Licença do nosso projeto para entender suas propriedades. [Acesse Aqui
 ## Aba de Páginas 🦆
 Caso prefira, acesse o QR code abaixo para acessar nossa Página de Acesso a todas nossas Redes,Plataformas entre outros links.
 <p align="center">
-<img src="https://qci.qr-code.click/uploads/qr_codes/67115d4a7e0fb.svg?1729194829" width="300px"/> <br>
+<img src="https://raw.githubusercontent.com/GusGgk/P.A.T.O_PROJECT/refs/heads/main/ABA%20DE%20IMAGENS/images/Red%20and%20Beige%20Minimalist%20Payment%20Scan%20QR%20Code%20Poster.png" width="300px"/> <br>
 
